@@ -1,6 +1,6 @@
 # Prototype of 3D game written in OpenGL
 ## Description
-This is an old (2009? 2010?) project, written to complete a course in computer graphics. A 3D game, where the player can drive a car over 3D terrain with rudimentary controls, hud and objectives (player should go through gates in a pre-set order). Written in C and OpenGL (freeglut) with the use of gd librabry for image manipulations, models rendered in Wings3D and uploaded with glm library. Glm had to be slightly custom-modified to use gd library for texturing. Some features included:
+This is an old (2009? 2010?) project, written to complete a course in computer graphics. A 3D game, where the player can drive a car over 3D terrain with rudimentary controls, hud and objectives (player should go through gates in a pre-set order). Written in *C* and *OpenGL* (freeglut) with the use of *gd* librabry for image manipulations, models rendered and textured in *Wings3D* and uploaded with *glm* library. I had to slightly modify *glm* to use *gd* library for uploading texture files. Some features included:
 
 * The terrain is automatically generated from terrain.png file, where grey level=height, using different image results in different terrain. Terrain texturing depends on height, low altitutde has sand texture and higher are rocks.
 * Very basic system of collisions (damage) and power-ups (barrels :) ) is implemented
